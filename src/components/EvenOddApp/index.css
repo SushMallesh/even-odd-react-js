@@ -1,0 +1,39 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+@media (min-width: 768px) {
+  .app-container {
+    align-items: center;
+  }
+}
+.even-odd-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 10px;
+  width: 40%;
+  padding: 50px;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+.even-odd-text {
+  font-family: 'Roboto';
+  color: #334155;
+}
+.button {
+  color: #334155;
+  border: 5px solid #0f172a;
+}
+.description {
+  font-size: 10px;
+  color: #334155;
+  font-family: 'Roboto';
+}
